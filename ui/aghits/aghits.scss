@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway';
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #E5E5E5;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 48px;
+}
+
+.container {
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  display: flex;
+}
+
+.sidebar {
+  background-color: white;
+  width: 345px;
+  height: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 0 0 10px;
+  position: relative;
+
+  .sidebar-image {
+    width: 100%;
+    border-radius: 10px 0 0 0;
+  }
+
+  .links {
+    margin: 0 20px 20px 20px;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    hr {
+      border: none;
+      border-bottom: 1px solid #CCC;
+    }
+
+    ol {
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+
+      li {
+        
+        a {
+          color: inherit;
+          display: inline-block;
+          text-decoration: none;
+          padding-left: 8px;
+          margin: 10px 0;
+          border-left: 3px solid white;
+
+          &.active {
+            color: #4C5598;
+            font-weight: bold;
+            border-left: 3px solid #4C5598;
+          }
+
+          &:hover {
+            color: #4C5598;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  .profile {
+    position: absolute;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+
+    .wrapper {
+      border-radius: 10px;
+      background: url('./../../assets/arceru/player-profile-bg.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      width: 100%;
+
+      p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.content {
+  width: 1000px;
+  padding: 50px;
+
+  h1 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .profile-card {
+    width: 100%;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 50px;
+
+    img {
+      margin-right: 40px;
+      height: 250px;
+    }
+
+    .player-info {
+      h2 {
+        margin: 0;
+        display: flex;
+
+        .icon {
+          margin-left: 1rem;
+
+          svg {
+            fill: inherit;
+          }
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 31px;
+        width: 400px;
+      }
+    }
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+
+  svg {
+    fill: white;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+
+  &.grid-cols-3 {
+    grid-template-columns: 3;
+  }
+  
+  &.grid-flow-col {
+    grid-auto-flow: column;
+  }
+
+  &.gap {
+    gap: 2rem;
+  }
+
+  .card {
+    border-radius: 10px;
+
+    &.blue {
+      background-color: #67D2E1;
+      border-bottom: 10px solid #35C8DE;
+      color: white;
+    }
+
+    &.yellow {
+      background-color: #FFB129;
+      border-bottom: 10px solid #F8AA22;
+      color: white;
+    }
+
+    &.red {
+      background-color: #E75C62;
+      border-bottom: 10px solid #E0555B;
+      color: white;
+    }
+    
+    img {
+      height: 175px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .card-info {
+      margin: 20px 40px;
+
+      h3 {
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+      }
+
+      p {
+        line-height: 31px;
+      }
+    }
+  }
+}
+
+.panel {
+  width: 100px;
+  height: 100%;
+  background-color: #4C5598;
+  border-radius: 10px;
+
+  .icon {
+    margin: 35px;
+  }
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}

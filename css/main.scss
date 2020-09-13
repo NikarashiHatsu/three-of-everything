@@ -10,10 +10,11 @@ html {
   body {
     overflow: hidden;
     margin: 0 auto;
-    width: 100vw;
+    width: 1280px;
     height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
   }
 
   header {
@@ -37,9 +38,9 @@ html {
 
   section {
     height: 160px;
-    width: 60%;
+    width: 35%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 
     .gallery {
       position: relative;

@@ -1,0 +1,200 @@
+.kinda-sidebar {
+  width: 400px;
+  padding: 1rem 2rem;
+  background-color: #fcfcfc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 321px) {
+  .kinda-sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 641px) {
+  .kinda-sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 769px) {
+  .kinda-sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+  .kinda-sidebar {
+    display: none;
+  }
+}
+
+.kinda-sidebar .sidebar-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.kinda-sidebar .sidebar-profile img {
+  width: 3rem;
+  height: 3rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  margin-left: 2rem;
+}
+
+.kinda-sidebar .sidebar-profile .notification {
+  padding: 0.1rem 0.6rem 0.2rem;
+  border-radius: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #fcd661;
+  margin-left: 2rem;
+}
+
+.kinda-sidebar .sidebar-profile .icon {
+  width: 1.75rem;
+  fill: #3f3f3f;
+}
+
+.kinda-sidebar .payment {
+  margin-bottom: 2rem;
+}
+
+.kinda-sidebar .payment .card {
+  margin-top: 1.5rem;
+  background-color: #6454c3;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.kinda-sidebar .payment .card h3 {
+  margin: 1.5rem 0;
+}
+
+.kinda-sidebar .payment .card code {
+  font-family: 'Courier Prime';
+}
+
+.kinda-sidebar .details {
+  width: 100%;
+  font-weight: 700;
+  color: #494949;
+  margin-bottom: 4rem;
+}
+
+.kinda-sidebar .details tbody tr td img {
+  margin: 0.5rem 0;
+}
+
+.kinda-sidebar .details img {
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.kinda-sidebar .details .delivery {
+  background-color: #fff7ee;
+  width: 75px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+.kinda-sidebar .details .delivery img {
+  width: 40%;
+  height: 40%;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.kinda-sidebar .details .text-right {
+  text-align: right;
+}
+
+.kinda-sidebar .details .price {
+  color: #bdbdbd;
+}
+
+.kinda-sidebar .checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kinda-sidebar .pesan {
+  margin-top: 1.5rem;
+  border-radius: 20px;
+  padding: 0.75rem 2rem;
+  border: none;
+  font-size: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #fcd661;
+  -webkit-transition: 0.3s background-color;
+  transition: 0.3s background-color;
+  cursor: pointer;
+  color: #45443f;
+}
+
+.kinda-sidebar .pesan:hover {
+  background-color: #f2b805;
+}
+
+.kinda-sidebar .pesan span {
+  margin-right: 5rem;
+}
+
+.kinda-sidebar .pesan .icon {
+  width: 0.5rem;
+}
+/*# sourceMappingURL=my_kantin_sidebar.css.map */

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Kantin</title>
+  <link rel="stylesheet" href="my_kantin.css">
+  <link rel="stylesheet" href="my_kantin_sidebar.css">
+</head>
+
+<body>
+  <div class="kinda-body">
+    <nav class="navbar">
+      <div class="flex">
+        <svg class="icon nav-toggler" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+          </svg>
+        <h5>MyKantin</h5>
+      </div>
+      <div class="search">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+          </svg>
+        <input type="text" placeholder="Cari Makan Bang?">
+      </div>
+    </nav>
+    <div class="carousel">
+      <div class="card">
+        <img src="./../../assets/my_kantin/food-icon.svg" />
+        <div>
+          <h2>Promo Hari Ini</h2>
+          <h4>Perut Kenyang, Hati Senang</h4>
+        </div>
+      </div>
+      <div class="circles">
+        <a href="javascript:void(0)" class="circle active"></a>
+        <a href="javascript:void(0)" class="circle"></a>
+        <a href="javascript:void(0)" class="circle"></a>
+        <a href="javascript:void(0)" class="circle"></a>
+        <a href="javascript:void(0)" class="circle"></a>
+      </div>
+    </div>
+    <section>
+      <div class="header-wrapper">
+        <h2>Kategori</h2>
+        <button>Lihat Selengkapnya</button>
+      </div>
+      <div class="grid-category gap-4">
+        <div class="category">
+          <img src="./../../assets/my_kantin/foods.jpg" alt="Semua">
+          <h4>Semua</h4>
+        </div>
+        <div class="category">
+          <img src="./../../assets/my_kantin/pizza.jpg" alt="Pizza">
+          <h4>Pizza</h4>
+        </div>
+        <div class="category">
+          <img src="./../../assets/my_kantin/burger.jpg" alt="Burger">
+          <h4>Burger</h4>
+        </div>
+        <div class="category">
+          <img src="./../../assets/my_kantin/juice.jpg" alt="Jus">
+          <h4>Jus</h4>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="header-wrapper">
+        <h2>Populer</h2>
+      </div>
+      <div class="grid-popular">
+        <div class="popular">
+          <div class="category">
+            <img class="popular" src="./../../assets/my_kantin/cheese.jpg" alt="Cheese Pizza">
+            <div class="cooking-time">
+              25-30 mins
+            </div>
+            <h5 class="title">4 Cheese</h5>
+          </div>
+          <h3>
+            4 Cheese
+          </h3>
+          <div class="rating">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path
+                d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z" />
+              </svg>
+            <span class="stars">4.7</span>
+            <span class="price">Rp130.000</span>
+          </div>
+        </div>
+        <div class="popular">
+          <div class="category">
+            <img class="popular" src="./../../assets/my_kantin/philadelphia.jpg" alt="Philadelphia Pizza">
+            <div class="cooking-time">
+              30-35 mins
+            </div>
+            <h5 class="title">Philadelphia</h5>
+          </div>
+          <h3>
+            Philadelphia
+          </h3>
+          <div class="rating">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path
+                d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z" />
+              </svg>
+            <span class="stars">4.5</span>
+            <span class="price">Rp250.000</span>
+          </div>
+        </div>
+        <div class="popular">
+          <div class="category">
+            <img class="popular" src="./../../assets/my_kantin/mozarella.jpg" alt="Mozarella Pizza">
+            <div class="cooking-time">
+              30-35 mins
+            </div>
+            <h5 class="title">Mozarella</h5>
+          </div>
+          <h3>
+            Mozarella
+          </h3>
+          <div class="rating">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path
+                d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z" />
+              </svg>
+            <span class="stars">4.6</span>
+            <span class="price">Rp175.000</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="kinda-sidebar">
+    <div class="sidebar-profile">
+      <img src="./../../assets/my_kantin/gigachad.jpg" alt="Gigachad">
+      <div class="notification">3</div>
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path
+          d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+        </svg>
+    </div>
+    <div class="payment">
+      <h2>Pesanan Saya</h2>
+      <div class="card">
+        <p>Aghits Nidallah</p>
+        <h3>Rp1.000.000,-</h3>
+        <code>3758*********8913</code>
+      </div>
+    </div>
+    <table class="details">
+      <tbody>
+        <tr>
+          <td><img src="./../../assets/my_kantin/cheese.jpg" alt="Cheese"></td>
+          <td>3</td>
+          <td>x</td>
+          <td>4 Cheese Pizza</td>
+          <td class="text-right price">520k</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="./../../assets/my_kantin/juice.jpg" alt="Jus">
+          </td>
+          <td>4</td>
+          <td>x</td>
+          <td>Jus Mangga</td>
+          <td class="text-right price">60k</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="./../../assets/my_kantin/salad.jpg" alt="Salad">
+          </td>
+          <td>2</td>
+          <td>x</td>
+          <td>Salad</td>
+          <td class="text-right price">30k</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="delivery">
+              <img src="./../../assets/my_kantin/car.svg" alt="Car">
+            </div>
+          </td>
+          <td colspan="3">Jl. Papope</td>
+          <td class="text-right price">Gratis</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="checkout">
+      <p>Total:</p>
+      <h1>Rp690.000</h1>
+    </div>
+    <button class="pesan">
+      <span>Pesan</span>
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+    </button>
+  </div>
+</body>
+
+</html>
